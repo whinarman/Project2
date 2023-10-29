@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+.container {
+    max-width: 700px;
+    width: 100%;
+    background-color: #fff;
+    padding: 25px 30px;
+    border-radius: 5px;
+} 
+
+  header {
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.container .form {
+    margin-top: 30px;
+}
+
+.form .input-box {
+    width: 100%;
+    margin-top: 20px;
+}
+
+ label{
+    color: #333;
+    font-size: 19px;
+}
+
+::placeholder{
+    padding: 7px;
+}
+
+.form .input-box input {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    outline: none;
+    font-size: 1rem;
+    color: #707070;
+    margin-top: 8px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: px;
+}
+
+.column {
+    text-align: center;
+    margin-top: 17px;
+}
+
+.button {
+    margin: 19px;
+    padding: 7px;
+    font-size: 15px;
+}
+
+a {
+    margin: 10px;
+    font-size: 19px;
+    text-decoration: none;
+}
+
+a:visited, a {
+    color: #707070;
+}
+
+a:hover, a:focus {
+    color: #333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 599px) {
+    .form {
+        flex-wrap: wrap;
+    }
+}
